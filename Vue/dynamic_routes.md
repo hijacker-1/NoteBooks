@@ -13,7 +13,7 @@ index.vue
             <li v-for="item in stuList" :key="item.id">
             <!--  采用以下两种方式在页面中使用动态路由 -->
                 <nuxt-link :to="`/students/${item.id}`">this is the {{item.id}}</nuxt-link>
-                <nuxt-link :to="{name: "students-id", params: {id: item.id}, query: {id: item.id}}">this is the {{item.id}} pages </nuxt-link>
+                <nuxt-link :to="{name: "students-id", params: {id: item.id}, query: {id: item.id}}">this is <the></the> {{item.id}} pages </nuxt-link>
             </li>
         </ui>
     </div>
