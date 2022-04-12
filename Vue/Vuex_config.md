@@ -21,7 +21,7 @@ export const mutations = {
     // 这里面写的函数第一个参数永远是state， 后面的就是从其他地方传过来的参数
     addN(state, step) {
         state.count += step // step是由用户传过来的参数
-    }
+}
 }
 
 // actions中进行的是异步操作
